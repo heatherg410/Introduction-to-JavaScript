@@ -19,10 +19,16 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 18;
+
+if(votingAge >= 18){
+  console.log(true);
+} else{
+  console.log(false);
+}
 
 
-
-/*
+/* 
 Task 1b - Values
 
 Do the following:   
@@ -32,8 +38,15 @@ Do the following:
 
    HINT: no function required
 */
+let dog = 'peach';
+let behavior = 'bad';
 
-
+if(behavior === 'bad'){
+  dog = 'pepper';
+}else{
+  dog = 'peach'
+}
+console.log(dog)
 
 
 
@@ -47,7 +60,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const party = '1999';
+console.log(Number(party));
 
 
 
@@ -76,10 +90,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  return age * 7;
 }
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
