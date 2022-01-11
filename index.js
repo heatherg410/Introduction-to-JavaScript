@@ -255,10 +255,20 @@ Using the grade function below do the following:
  below should return 'you got an F'
 */
 
-function grade(/*Your Code here */){
-/*Your Code here */
+function grade(numberGrade){
+if(numberGrade >=90){
+  return `you got an A`;
+}else if(numberGrade < 90 && numberGrade >= 80){
+  return `you got a B`
+}else if(numberGrade < 80 && numberGrade >= 70){
+  return `you got a C`
+}else if(numberGrade < 70 && numberGrade >= 60){
+  return 'you got a D'
+}else if(numberGrade < 60){
+  return `you got an F`
 }
-
+}
+console.log(grade(45));
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
